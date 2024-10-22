@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import readline from "readline"; // Import the readline module
 
-const genAI = new GoogleGenerativeAI("AIzaSyA8LpsuetBShbkYhbpBmDuLDUPot8PjenY"); // Replace with your actual API key
+const genAI = new GoogleGenerativeAI("API_KEY"); // Replace with your actual API key
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 const rl = readline.createInterface({
